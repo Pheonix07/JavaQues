@@ -2,9 +2,65 @@
 
 |Table of content |
 |:-----------------------|
+| [ 01. What do you know about JVM, JRE, and JDK](#01-what-do-you-know-about-jvm-jre-and-jdk) |
+| [ 02. 02. Is JRE Platform Dependent or Independent?](#02-is-jre-platform-dependent-or-independent) |
 | [ 19. Explain upcasting ](#19-explain-up-casting) |
 | [ 20. Explain Dynamic Method Dispatch](#20-explain-dynamic-method-dispatch) |
 |[ 21. What do you know about final keyword? ](#21-what-do-you-know-about-final-keyword) |
+
+---
+### 01. What do you know about JVM, JRE, and JDK
+
+**Definition:**
+- **JVM (Java Virtual Machine):** JVM is an integral part of the Java Runtime Environment (JRE) responsible for executing Java bytecode. It abstracts the underlying hardware and provides a platform-independent environment for Java applications.
+
+- **JRE (Java Runtime Environment):** JRE includes the JVM and essential runtime libraries required for running Java applications. It does not contain development tools such as compilers and debuggers.
+
+- **JDK (Java Development Kit):** JDK is a complete development package for Java applications. It includes the JRE, development tools (compiler, debugger), and additional utilities to develop, compile, and run Java code.
+
+**Concept:**
+- JVM allows Java programs to be executed on various platforms without modification.
+- JRE provides the runtime environment for Java applications, ensuring they can run on a target system.
+- JDK is used by developers to write, compile, and run Java applications. It includes JRE for testing purposes.
+
+**Example:**
+- Imagine you want to run a Java program on your computer. You need JRE installed to execute the program. To develop Java programs, you would use JDK, which includes JRE along with development tools.
+
+**Real-Life Relatable Example:**
+- Think of JRE as a car engine that makes your car (Java program) run smoothly. JDK is like an auto shop with tools and parts (development tools) to build and maintain the car.
+
+**Advantages:**
+- JVM ensures Java's platform independence.
+- JRE simplifies the deployment of Java applications.
+- JDK provides a comprehensive development environment.
+
+**Limitations:**
+- JVM performance can vary based on the implementation.
+- JRE may not include certain tools needed for advanced development tasks.
+- JDK requires more disk space due to the inclusion of development tools.
+
+---
+### 02. Is JRE Platform Dependent or Independent?
+
+**Definition:**
+JRE (Java Runtime Environment) is platform-independent. It is designed to provide a consistent runtime environment for Java applications across different platforms. This means that Java applications compiled on one platform can run on any platform with a compatible JRE without modification.
+
+**Concept:**
+JRE's platform independence is achieved through the use of the Java Virtual Machine (JVM), which abstracts the underlying hardware and operating system details. When you run a Java application with JRE, it is executed by the JVM, ensuring that the application behaves consistently regardless of the platform it runs on.
+
+**Example:**
+Suppose you have a Java application developed on a Windows computer. You can package the application with JRE and then run it on a macOS or Linux system with the appropriate JRE installed, and it will work without any platform-specific adjustments.
+
+**Real-Life Relatable Example:**
+Think of JRE as a universal translator for Java applications. It ensures that the same Java program can "speak" and run correctly on different "languages" (platforms).
+
+**Advantages:**
+1. Simplifies cross-platform Java application development.
+2. Reduces the need for platform-specific coding.
+3. Enhances the portability of Java applications.
+
+**Limitations:**
+While JRE itself is platform-independent, you may encounter platform-specific issues in your Java code if it relies on platform-specific features or dependencies. Careful coding practices are necessary to ensure complete platform independence.
 
 ---
 
