@@ -1,5 +1,13 @@
 # Important Java Interview questions
 
+|Table of content |
+|:-----------------------|
+| [ 19. Explain upcasting ](#19-explain-up-casting) |
+| [ 20. Explain Dynamic Method Dispatch](#20-explain-dynamic-method-dispatch) |
+|[ 21. What do you know about final keyword? ](#21-what-do-you-know-about-final-keyword) |
+
+---
+
 ### 19. Explain Up Casting
 **Defination:** Upcasting in Java is the process of converting a reference of a subclass to a reference of its superclass. In simpler terms, it's when you treat an object of a derived class as an object of its base class.
 
