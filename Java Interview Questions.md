@@ -4,6 +4,7 @@
 |:-----------------------|
 | [ 01. What do you know about JVM, JRE, and JDK](#01-what-do-you-know-about-jvm-jre-and-jdk) |
 | [ 02. 02. Is JRE Platform Dependent or Independent?](#02-is-jre-platform-dependent-or-independent) |
+| [ 03. What is the Ultimate Base Class in Java Class Hierarchy? List the name of methods of it. ](#03-what-is-the-ultimate-base-class-in-java-class-hierarchy-list-the-name-of-methods-of-it) |
 | [ 19. Explain upcasting ](#19-explain-up-casting) |
 | [ 20. Explain Dynamic Method Dispatch](#20-explain-dynamic-method-dispatch) |
 |[ 21. What do you know about final keyword? ](#21-what-do-you-know-about-final-keyword) |
@@ -63,7 +64,34 @@ Think of JRE as a universal translator for Java applications. It ensures that th
 While JRE itself is platform-independent, you may encounter platform-specific issues in your Java code if it relies on platform-specific features or dependencies. Careful coding practices are necessary to ensure complete platform independence.
 
 ---
+### 03. What is the Ultimate Base Class in Java Class Hierarchy? List the name of methods of it.
 
+ The ultimate base class in the Java class hierarchy is the `Object` class.
+
+**Additional Information:**
+
+- The `Object` class is a fundamental class in Java and serves as the root class for all other classes.
+- It is located at the top of the class hierarchy, meaning that every class in Java is either directly or indirectly derived from the `Object` class.
+- The `Object` class provides a set of common methods and behaviors that are inherited by all Java objects.
+
+### Methods of the `Object` Class
+
+1. **`equals(Object obj)`**
+   - **Definition:** Compares the content of two objects for equality.
+   - **Usage:** Often overridden in custom classes to provide meaningful equality checks.
+
+2. **`hashCode()`**
+   - **Definition:** Returns a hash code value for the object.
+   - **Usage:** Used in hash-based data structures like `HashMap` for efficient storage and retrieval.
+
+3. **`toString()`**
+   - **Definition:** Returns a string representation of the object.
+   - **Usage:** Often overridden to provide a human-readable description of the object.
+
+4. **`getClass()`**
+   - **Definition:** Returns the runtime class of an object.
+   - **Usage:** Useful for determining the class of an object at runtime.
+---
 ### 19. Explain Up Casting
 **Defination:** Upcasting in Java is the process of converting a reference of a subclass to a reference of its superclass. In simpler terms, it's when you treat an object of a derived class as an object of its base class.
 
