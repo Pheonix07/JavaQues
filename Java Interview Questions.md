@@ -40,6 +40,8 @@
 - JRE may not include certain tools needed for advanced development tasks.
 - JDK requires more disk space due to the inclusion of development tools.
 
+###### [Return to table of contents...](#important-java-interview-questions)
+
 ---
 ### 02. Is JRE Platform Dependent or Independent?
 
@@ -62,6 +64,8 @@ Think of JRE as a universal translator for Java applications. It ensures that th
 
 **Limitations:**
 While JRE itself is platform-independent, you may encounter platform-specific issues in your Java code if it relies on platform-specific features or dependencies. Careful coding practices are necessary to ensure complete platform independence.
+
+###### [Return to table of contents...](#important-java-interview-questions)
 
 ---
 ### 03. What is the Ultimate Base Class in Java Class Hierarchy? List the name of methods of it.
@@ -91,6 +95,9 @@ While JRE itself is platform-independent, you may encounter platform-specific is
 4. **`getClass()`**
    - **Definition:** Returns the runtime class of an object.
    - **Usage:** Useful for determining the class of an object at runtime.
+
+###### [Return to table of contents...](#important-java-interview-questions)
+
 ---
 ### 19. Explain Up Casting
 **Defination:** Upcasting in Java is the process of converting a reference of a subclass to a reference of its superclass. In simpler terms, it's when you treat an object of a derived class as an object of its base class.
@@ -139,6 +146,8 @@ After upcasting, you can only access the methods and fields of the superclass. A
 If you upcast to a superclass and then try to access a method or field unique to the subclass, it will result in a **runtime error**.
 
 **Loss of Type-Specific Functionality:** Upcasting may lead to a loss of type-specific functionality, which might be needed in some situations.
+
+###### [Return to table of contents...](#important-java-interview-questions)
 
 ---
 ### 20. Explain Dynamic Method Dispatch
@@ -197,6 +206,8 @@ Think of Dynamic Method Dispatch like a music player with interchangeable speake
 
 **Complexity:** In complex class hierarchies, it may become challenging to track method execution paths.
 
+###### [Return to table of contents...](#important-java-interview-questions)
+
 ---
 
 ### 21. What do you know about final keyword?
@@ -244,5 +255,7 @@ Final variables ensure that their values remain constant, which can be useful fo
 **Immutability:** Final variables cannot be changed, which may not be suitable for every situation.
 
 **Extensibility:** Final classes cannot be extended, limiting the ability to build on existing code.
+
+###### [Return to table of contents...](#important-java-interview-questions)
 
 ---
